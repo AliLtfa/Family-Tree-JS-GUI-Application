@@ -1,22 +1,27 @@
 # Family-Tree-JS-GUI-Application
-An Arabic GUI JavaScript Application For Family Trees using dTree
 
-Due to lack of JS applications that has a graphical user interface, I have decided to create this little application that allows users to create their own family trees using a click and drag and drop operations. The application has the following features:
 
-1- Export and Import user's family tree as a CSV file.
-2- Export the user's tree as an image for sharing.
-3- Click on nodes to create a new child or a spouse (with gender) node.
-4- A pop up window to change the node's name or gender, to add a new spouse to the child or a new child (in which case a spouse will be created automatically with the correct gender (with the name being غير معروف which can be changed) )
-5- The user's own family is expandable and alligns correctly within the confines of their own browser.
+An Arabic JavaScript GUI Application for Creating Family Trees Using dTree
 
-The application uses the following libraries:
+
+This project was developed in response to the noticeable lack of JavaScript applications with graphical user interfaces for building family trees. I created this lightweight application to allow users to visually create and manage their own family trees through intuitive drag-and-drop interactions.
+Based on my research, this is the first JavaScript application that provides a full graphical user interface specifically for building personalized family trees.
+
+Key Features:
+1. Import and export family trees as CSV files.
+2. Export the family tree as an image for easy sharing.
+3. Click on any node to add a child or spouse (with selectable gender).
+4. Pop-up windows allow you to edit a node’s name or gender, add a new spouse, or add a child. When adding a child, a spouse node is automatically generated with the correct gender and a default name ("غير معروف") which can be changed later.
+5. The tree is fully expandable and aligns properly within the confines of a user’s browser window.
+
+Libraries Used:
 dTree.min.js
 d3.v4.min.js
 lodash.min.js
-as well as html2canvas for exporting pdf or iamge file.
+html2canvas (for exporting to PDF or image)
 
-...............................
 
-This Application is an arabic.
+
+Note: This application is in Arabic. Localization or modification is permitted, provided that credit is given to the original developer and a link to this page is included.
 
 
